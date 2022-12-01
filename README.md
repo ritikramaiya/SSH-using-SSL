@@ -22,3 +22,6 @@ To compile your C program, please use the following commands:
 gcc -Wall -w -o sslcli sslcli.c -I/usr/local/ssl/include/ -L/usr/local/ssl/lib -lssl -lcrypto gcc -Wall -w -o sslserv sslserv.c -I/usr/local/ssl/include/ -L/usr/local/ssl/lib -lssl -lcrypto
 Important Note
 You can use any code available on the web for SSL socket programming. However, you must write your own code for the rest part of the assignment (i.e., ls, pwd, exit). You should also generate the certificate by yourself. When you create a certificate, it will ask you for your name.
+
+
+TO get the Server.c and client.c file email me @ ritikramaiya34@gmail.com
