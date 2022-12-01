@@ -1,0 +1,39 @@
+NAME                        : Ritik Ramaiya
+
+EMAIL                       : rramaiy1@binghamton.edu
+
+PROGRAMMING LANGUAGE        : C PROGRAM
+
+CODE TESTED ON REMOTE.CS    : YES
+
+COMPILE AND EXECUTE COMMANDS:
+
+1. Open two terminals in the assignment folder path.
+
+
+2. run
+      "gcc -Wall -w -o cli cli.c -I/usr/local/ssl/include/ -L/usr/local/ssl/lib -lssl -lcrypto" 
+                                                    and 
+      "gcc -Wall -w -o ser ser.c -I/usr/local/ssl/include/ -L/usr/local/ssl/lib -lssl -lcrypto"    commands to ccompile the code on both terminals
+      
+      
+3. Run "./ser <portnumber> " command on server to rinitate a port number and a connection. i have used 65000
+
+			      		Note:- where port number is any number between 1024 and 65535. 
+					
+					
+4. After running the command it will ask for a passphrase enter "ritik" as passphrase and press enter and go to client terminal. if the prase is wrong then will display error mesage
+
+5. once it is done go to client terminal and run "./cli <hostname> <port number>".
+
+			      		Note:- where hostname is remote01.cs / remote02.cs and port number should be same as the port number which is given for the server.
+					
+6. Type any message which need to be displayed on server in the terminal where client code is run.
+
+7. check the terminal of the client and start running the commands ls,pwd and exit. if any other command is given then it will state invalid command
+
+8. you can see the messages being dsiplayed and transferred from server to client.
+
+
+Thanks
+
